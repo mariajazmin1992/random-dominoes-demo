@@ -1,0 +1,16 @@
+body {
+    background: darksalmon;
+}
+
+#dominoes-list {
+    /*list-style: none; -works*/
+    display: flex;
+    flex-direction: row; /*default*/
+    flex-wrap: wrap;
+}
+
+#dominoes-list li {
+    list-style:none;
+    font-size: 2rem; /* rem is a relative unit of measurement; whatever default font size of the page itself */
+    color: black;
+}
